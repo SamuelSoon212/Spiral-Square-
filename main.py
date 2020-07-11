@@ -1,6 +1,5 @@
 from turtle import *
 
-angle_change = 1
 length = 5
 depth = 0
 speed(99999999)
@@ -13,7 +12,4 @@ while depth < 300:
     right(91)
     forward(length + depth*3)
 
-
-
 mainloop()
-
